@@ -1,0 +1,51 @@
+body {
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 700px;
+  overflow: hidden;
+}
+
+h3 {
+  font-weight: 700;
+  color: #444444;
+
+}
+
+h6 {
+  font-weight: 700;
+  color: #666666;
+}
+
+.cop {
+
+  padding-bottom: 20px;
+
+  border-bottom: 10px solid #444444;
+  margin-bottom: 50px;
+}
+
+.content {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.decision {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #444444;
+  offset: 9999;
+
+  position: absolute;
+  overflow: hidden;
+  z-index: 999;
+
+}
+
+@media print {
+  .no-print {
+    visibility: hidden;
+  }
+}
